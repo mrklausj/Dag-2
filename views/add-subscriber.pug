@@ -1,0 +1,12 @@
+extends templates/default
+
+block content 
+    h1 Tilføj
+
+    form(action="#", method="post")
+        input(type="text", name="name" placeholder="Indtast navn")
+        br
+        input(type="text", name="email" placeholder="Indtast email")
+        br
+        button(type="submit") Gem 
+        button(type="reset") Cancel

@@ -1,0 +1,24 @@
+{
+  "test": [
+    {
+      "id": 1,
+      "name": "Jan Olsen",
+      "email": "jo@mail.dk"
+    },
+    {
+      "id": 2,
+      "name": "Jan Petersen",
+      "email": "jp@mail.dk"
+    },
+    {
+      "id": 3,
+      "name": "Søren Olsen",
+      "email": "so@mail.dk"
+    },
+    {
+      "id": 4,
+      "name": "kom",
+      "email": "kk"
+    }
+  ]
+}

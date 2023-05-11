@@ -1,0 +1,21 @@
+extends templates/default
+
+block content 
+    h1 subscriber
+
+    a(href="/subscriber/add") Tilføj
+
+    table(border="10")
+        tr 
+            th ID 
+            th Name 
+            th Email 
+            th Action
+        for item in data
+            tr 
+                td= item.id 
+                td= item.name 
+                td= item.email 
+                td 
+                    a(href="/subscriber/delete/" + item.id) Slet 
+                    a(href="/subscriber/edit/" + item.id) Rediger 

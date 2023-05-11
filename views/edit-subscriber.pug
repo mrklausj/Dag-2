@@ -1,0 +1,13 @@
+extends templates/default
+
+block content 
+    h1 Rediger
+
+    form(action="#", method="post")
+        input(type="text" name="id" value=data.id hidden)
+        input(type="text", name="name" placeholder="Indtast navn" value=data.name)
+        br
+        input(type="text", name="email" placeholder="Indtast email" value=data.email)
+        br
+        button(type="submit") Gem 
+        button(type="reset") Cancel
